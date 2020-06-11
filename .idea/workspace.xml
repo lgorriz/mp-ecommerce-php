@@ -1,0 +1,715 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="38f65cef-3d2e-49cb-ba08-d3aef9ca3100" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/mp-ecommerce-php.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/failure.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ipn.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pending.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/success.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/autoload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/annotations/.doctrine-project.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/annotations/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/annotations/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/annotations/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/annotations/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/annotations/docs/en/annotations.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/annotations/docs/en/custom.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/annotations/docs/en/index.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/annotations/docs/en/sidebar.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/Annotation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/Annotation/Attribute.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/Annotation/Attributes.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/Annotation/Enum.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/Annotation/IgnoreAnnotation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/Annotation/Required.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/Annotation/Target.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/AnnotationException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/AnnotationReader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/AnnotationRegistry.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/CachedReader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/DocLexer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/DocParser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/FileCacheReader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/IndexedReader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/PhpParser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/Reader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/SimpleAnnotationReader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/TokenParser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/annotations/phpbench.json.dist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/annotations/phpstan.neon" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/cache/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/cache/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/cache/UPGRADE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/cache/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/ApcCache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/ApcuCache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/ArrayCache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/Cache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/CacheProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/ChainCache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/ClearableCache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/CouchbaseBucketCache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/CouchbaseCache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/ExtMongoDBCache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/FileCache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/FilesystemCache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/FlushableCache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/InvalidCacheId.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/LegacyMongoDBCache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/MemcacheCache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/MemcachedCache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/MongoDBCache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/MultiDeleteCache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/MultiGetCache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/MultiOperationCache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/MultiPutCache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/PhpFileCache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/PredisCache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/RedisCache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/SQLite3Cache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/Version.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/VoidCache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/WinCacheCache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/XcacheCache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/ZendDataCache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/collections/.doctrine-project.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/collections/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/collections/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/collections/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/collections/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/collections/docs/en/derived-collections.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/collections/docs/en/expression-builder.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/collections/docs/en/expressions.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/collections/docs/en/index.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/collections/docs/en/lazy-collections.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/collections/docs/en/sidebar.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/collections/lib/Doctrine/Common/Collections/AbstractLazyCollection.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/collections/lib/Doctrine/Common/Collections/ArrayCollection.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/collections/lib/Doctrine/Common/Collections/Collection.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/collections/lib/Doctrine/Common/Collections/Criteria.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/collections/lib/Doctrine/Common/Collections/Expr/ClosureExpressionVisitor.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/collections/lib/Doctrine/Common/Collections/Expr/Comparison.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/collections/lib/Doctrine/Common/Collections/Expr/CompositeExpression.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/collections/lib/Doctrine/Common/Collections/Expr/Expression.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/collections/lib/Doctrine/Common/Collections/Expr/ExpressionVisitor.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/collections/lib/Doctrine/Common/Collections/Expr/Value.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/collections/lib/Doctrine/Common/Collections/ExpressionBuilder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/collections/lib/Doctrine/Common/Collections/Selectable.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/collections/psalm.xml.dist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/common/.doctrine-project.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/common/.github/FUNDING.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/common/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/common/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/common/UPGRADE_TO_2_1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/common/UPGRADE_TO_2_2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/common/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/common/docs/en/index.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/common/docs/en/reference/class-loading.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/common/humbug.json.dist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/common/lib/Doctrine/Common/ClassLoader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/common/lib/Doctrine/Common/CommonException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/common/lib/Doctrine/Common/Comparable.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/common/lib/Doctrine/Common/Lexer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/common/lib/Doctrine/Common/Proxy/AbstractProxyFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/common/lib/Doctrine/Common/Proxy/Autoloader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/common/lib/Doctrine/Common/Proxy/Exception/InvalidArgumentException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/common/lib/Doctrine/Common/Proxy/Exception/OutOfBoundsException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/common/lib/Doctrine/Common/Proxy/Exception/ProxyException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/common/lib/Doctrine/Common/Proxy/Exception/UnexpectedValueException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/common/lib/Doctrine/Common/Proxy/Proxy.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/common/lib/Doctrine/Common/Proxy/ProxyDefinition.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/common/lib/Doctrine/Common/Proxy/ProxyGenerator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/common/lib/Doctrine/Common/Util/ClassUtils.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/common/lib/Doctrine/Common/Util/Debug.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/common/lib/Doctrine/Common/Util/Inflector.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/common/lib/Doctrine/Common/Version.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/common/phpstan.neon.dist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/event-manager/.doctrine-project.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/event-manager/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/event-manager/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/event-manager/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/event-manager/lib/Doctrine/Common/EventArgs.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/event-manager/lib/Doctrine/Common/EventManager.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/event-manager/lib/Doctrine/Common/EventSubscriber.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/docs/en/index.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/lib/Doctrine/Common/Inflector/Inflector.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/lib/Doctrine/Inflector/CachedWordInflector.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/lib/Doctrine/Inflector/GenericLanguageInflectorFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/lib/Doctrine/Inflector/Inflector.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/lib/Doctrine/Inflector/InflectorFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/lib/Doctrine/Inflector/Language.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/lib/Doctrine/Inflector/LanguageInflectorFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/lib/Doctrine/Inflector/NoopWordInflector.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/English/Inflectible.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/English/InflectorFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/English/Rules.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/English/Uninflected.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/French/Inflectible.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/French/InflectorFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/French/Rules.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/French/Uninflected.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/NorwegianBokmal/Inflectible.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/NorwegianBokmal/InflectorFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/NorwegianBokmal/Rules.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/NorwegianBokmal/Uninflected.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/Pattern.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/Patterns.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/Portuguese/Inflectible.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/Portuguese/InflectorFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/Portuguese/Rules.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/Portuguese/Uninflected.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/Ruleset.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/Spanish/Inflectible.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/Spanish/InflectorFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/Spanish/Rules.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/Spanish/Uninflected.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/Substitution.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/Substitutions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/Transformation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/Transformations.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/Turkish/Inflectible.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/Turkish/InflectorFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/Turkish/Rules.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/Turkish/Uninflected.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/Word.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/lib/Doctrine/Inflector/RulesetInflector.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/lib/Doctrine/Inflector/WordInflector.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/phpstan.neon.dist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/lexer/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/lexer/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/lexer/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/lexer/lib/Doctrine/Common/Lexer/AbstractLexer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/persistence/.doctrine-project.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/persistence/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/persistence/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/persistence/UPGRADE-1.2.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/persistence/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/persistence/lib/Doctrine/Common/NotifyPropertyChanged.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/persistence/lib/Doctrine/Common/Persistence/AbstractManagerRegistry.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/persistence/lib/Doctrine/Common/Persistence/ConnectionRegistry.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/persistence/lib/Doctrine/Common/Persistence/Event/LifecycleEventArgs.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/persistence/lib/Doctrine/Common/Persistence/Event/LoadClassMetadataEventArgs.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/persistence/lib/Doctrine/Common/Persistence/Event/ManagerEventArgs.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/persistence/lib/Doctrine/Common/Persistence/Event/OnClearEventArgs.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/persistence/lib/Doctrine/Common/Persistence/Event/PreUpdateEventArgs.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/persistence/lib/Doctrine/Common/Persistence/ManagerRegistry.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/persistence/lib/Doctrine/Common/Persistence/Mapping/AbstractClassMetadataFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/persistence/lib/Doctrine/Common/Persistence/Mapping/ClassMetadata.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/persistence/lib/Doctrine/Common/Persistence/Mapping/ClassMetadataFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/persistence/lib/Doctrine/Common/Persistence/Mapping/Driver/AnnotationDriver.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/persistence/lib/Doctrine/Common/Persistence/Mapping/Driver/DefaultFileLocator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/persistence/lib/Doctrine/Common/Persistence/Mapping/Driver/FileDriver.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/persistence/lib/Doctrine/Common/Persistence/Mapping/Driver/FileLocator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/persistence/lib/Doctrine/Common/Persistence/Mapping/Driver/MappingDriver.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/persistence/lib/Doctrine/Common/Persistence/Mapping/Driver/MappingDriverChain.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/persistence/lib/Doctrine/Common/Persistence/Mapping/Driver/PHPDriver.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/persistence/lib/Doctrine/Common/Persistence/Mapping/Driver/StaticPHPDriver.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/persistence/lib/Doctrine/Common/Persistence/Mapping/Driver/SymfonyFileLocator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/persistence/lib/Doctrine/Common/Persistence/Mapping/MappingException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/persistence/lib/Doctrine/Common/Persistence/Mapping/ReflectionService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/persistence/lib/Doctrine/Common/Persistence/Mapping/RuntimeReflectionService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/persistence/lib/Doctrine/Common/Persistence/Mapping/StaticReflectionService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/persistence/lib/Doctrine/Common/Persistence/ObjectManager.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/persistence/lib/Doctrine/Common/Persistence/ObjectManagerAware.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/persistence/lib/Doctrine/Common/Persistence/ObjectManagerDecorator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/persistence/lib/Doctrine/Common/Persistence/ObjectRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/persistence/lib/Doctrine/Common/Persistence/PersistentObject.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/persistence/lib/Doctrine/Common/Persistence/Proxy.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/persistence/lib/Doctrine/Common/PropertyChangedListener.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/persistence/lib/Doctrine/Persistence/AbstractManagerRegistry.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/persistence/lib/Doctrine/Persistence/ConnectionRegistry.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/persistence/lib/Doctrine/Persistence/Event/LifecycleEventArgs.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/persistence/lib/Doctrine/Persistence/Event/LoadClassMetadataEventArgs.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/persistence/lib/Doctrine/Persistence/Event/ManagerEventArgs.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/persistence/lib/Doctrine/Persistence/Event/OnClearEventArgs.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/persistence/lib/Doctrine/Persistence/Event/PreUpdateEventArgs.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/persistence/lib/Doctrine/Persistence/ManagerRegistry.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/persistence/lib/Doctrine/Persistence/Mapping/AbstractClassMetadataFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/persistence/lib/Doctrine/Persistence/Mapping/ClassMetadata.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/persistence/lib/Doctrine/Persistence/Mapping/ClassMetadataFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/persistence/lib/Doctrine/Persistence/Mapping/Driver/AnnotationDriver.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/persistence/lib/Doctrine/Persistence/Mapping/Driver/DefaultFileLocator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/persistence/lib/Doctrine/Persistence/Mapping/Driver/FileDriver.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/persistence/lib/Doctrine/Persistence/Mapping/Driver/FileLocator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/persistence/lib/Doctrine/Persistence/Mapping/Driver/MappingDriver.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/persistence/lib/Doctrine/Persistence/Mapping/Driver/MappingDriverChain.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/persistence/lib/Doctrine/Persistence/Mapping/Driver/PHPDriver.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/persistence/lib/Doctrine/Persistence/Mapping/Driver/StaticPHPDriver.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/persistence/lib/Doctrine/Persistence/Mapping/Driver/SymfonyFileLocator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/persistence/lib/Doctrine/Persistence/Mapping/MappingException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/persistence/lib/Doctrine/Persistence/Mapping/ReflectionService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/persistence/lib/Doctrine/Persistence/Mapping/RuntimeReflectionService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/persistence/lib/Doctrine/Persistence/Mapping/StaticReflectionService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/persistence/lib/Doctrine/Persistence/NotifyPropertyChanged.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/persistence/lib/Doctrine/Persistence/ObjectManager.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/persistence/lib/Doctrine/Persistence/ObjectManagerAware.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/persistence/lib/Doctrine/Persistence/ObjectManagerDecorator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/persistence/lib/Doctrine/Persistence/ObjectRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/persistence/lib/Doctrine/Persistence/PropertyChangedListener.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/persistence/lib/Doctrine/Persistence/Proxy.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/reflection/.doctrine-project.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/reflection/.scrutinizer.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/reflection/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/reflection/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/reflection/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/reflection/lib/Doctrine/Common/Reflection/ClassFinderInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/reflection/lib/Doctrine/Common/Reflection/Psr0FindFile.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/reflection/lib/Doctrine/Common/Reflection/ReflectionProviderInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/reflection/lib/Doctrine/Common/Reflection/RuntimePublicReflectionProperty.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/reflection/lib/Doctrine/Common/Reflection/StaticReflectionClass.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/reflection/lib/Doctrine/Common/Reflection/StaticReflectionMethod.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/reflection/lib/Doctrine/Common/Reflection/StaticReflectionParser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/reflection/lib/Doctrine/Common/Reflection/StaticReflectionProperty.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/reflection/lib/Doctrine/Common/Reflection/TypedNoDefaultReflectionProperty.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/doctrine/reflection/phpstan.neon.dist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/mercadopago/dx-php/.github/ISSUE_TEMPLATE/bug_report.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/mercadopago/dx-php/.github/ISSUE_TEMPLATE/feature_request.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/mercadopago/dx-php/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/mercadopago/dx-php/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/mercadopago/dx-php/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/mercadopago/dx-php/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/mercadopago/dx-php/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/mercadopago/dx-php/img/demo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/mercadopago/dx-php/img/ezgif-2-f98e8701825e.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/mercadopago/dx-php/phpunit.phar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/mercadopago/dx-php/phpunit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/mercadopago/dx-php/samples/checkout-buttons/basic-preference/button.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/mercadopago/dx-php/samples/checkout-buttons/full-preference/button.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/mercadopago/dx-php/samples/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/mercadopago/dx-php/samples/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/mercadopago/dx-php/samples/customer-and-cards/customer/cards/create.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/mercadopago/dx-php/samples/customer-and-cards/customer/cards/remove.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/mercadopago/dx-php/samples/customer-and-cards/customer/create.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/mercadopago/dx-php/samples/customer-and-cards/customer/remove.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/mercadopago/dx-php/samples/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/mercadopago/dx-php/samples/payment/minimal/cancel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/mercadopago/dx-php/samples/payment/minimal/create.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/mercadopago/dx-php/samples/payment/minimal/refund.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/mercadopago/dx-php/samples/payment/saved-cards/pay_with_saved_cards.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/mercadopago/dx-php/samples/suscriptions/basic-suscription.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/mercadopago/dx-php/samples/suscriptions/pause-subscription.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/mercadopago/dx-php/samples/suscriptions/plan-create.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/mercadopago/dx-php/samples/suscriptions/subscribe-to-plan.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/mercadopago/dx-php/src/MercadoPago/Annotation/Attribute.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/mercadopago/dx-php/src/MercadoPago/Annotation/DenyDynamicAttribute.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/mercadopago/dx-php/src/MercadoPago/Annotation/RequestParam.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/mercadopago/dx-php/src/MercadoPago/Annotation/RestMethod.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/mercadopago/dx-php/src/MercadoPago/Config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/mercadopago/dx-php/src/MercadoPago/Config/AbstractConfig.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/mercadopago/dx-php/src/MercadoPago/Config/Json.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/mercadopago/dx-php/src/MercadoPago/Config/ParserInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/mercadopago/dx-php/src/MercadoPago/Config/Yaml.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/mercadopago/dx-php/src/MercadoPago/Entities/AdvancedPayments/AdvancedPayment.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/mercadopago/dx-php/src/MercadoPago/Entities/AdvancedPayments/DisbursementRefund.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/mercadopago/dx-php/src/MercadoPago/Entities/AdvancedPayments/Refund.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/mercadopago/dx-php/src/MercadoPago/Entities/AuthorizedPayment.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/mercadopago/dx-php/src/MercadoPago/Entities/Card.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/mercadopago/dx-php/src/MercadoPago/Entities/CardToken.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/mercadopago/dx-php/src/MercadoPago/Entities/Chargeback.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/mercadopago/dx-php/src/MercadoPago/Entities/Customer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/mercadopago/dx-php/src/MercadoPago/Entities/DiscountCampaign.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/mercadopago/dx-php/src/MercadoPago/Entities/InstoreOrder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/mercadopago/dx-php/src/MercadoPago/Entities/Invoice.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/mercadopago/dx-php/src/MercadoPago/Entities/MerchantOrder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/mercadopago/dx-php/src/MercadoPago/Entities/OAuth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/mercadopago/dx-php/src/MercadoPago/Entities/Plan.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/mercadopago/dx-php/src/MercadoPago/Entities/Pos.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/mercadopago/dx-php/src/MercadoPago/Entities/Preapproval.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/mercadopago/dx-php/src/MercadoPago/Entities/Preference.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/mercadopago/dx-php/src/MercadoPago/Entities/Refund.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/mercadopago/dx-php/src/MercadoPago/Entities/Shared/Documentation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/mercadopago/dx-php/src/MercadoPago/Entities/Shared/Item.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/mercadopago/dx-php/src/MercadoPago/Entities/Shared/Payer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/mercadopago/dx-php/src/MercadoPago/Entities/Shared/Payment.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/mercadopago/dx-php/src/MercadoPago/Entities/Shared/PaymentMethod.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/mercadopago/dx-php/src/MercadoPago/Entities/Shared/Tax.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/mercadopago/dx-php/src/MercadoPago/Entities/Shared/Track.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/mercadopago/dx-php/src/MercadoPago/Entities/Shared/TrackValues.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/mercadopago/dx-php/src/MercadoPago/Entities/Shipments.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/mercadopago/dx-php/src/MercadoPago/Entities/Subscription.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/mercadopago/dx-php/src/MercadoPago/Generic/ErrorCause.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/mercadopago/dx-php/src/MercadoPago/Generic/RecuperableError.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/mercadopago/dx-php/src/MercadoPago/Generic/SearchResultsArray.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/mercadopago/dx-php/src/MercadoPago/Http/CurlRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/mercadopago/dx-php/src/MercadoPago/Http/HttpRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/mercadopago/dx-php/src/MercadoPago/Manager.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/mercadopago/dx-php/src/MercadoPago/MetaDataReader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/mercadopago/dx-php/src/MercadoPago/RestClient.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/mercadopago/dx-php/src/MercadoPago/SDK.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/mercadopago/dx-php/src/MercadoPago/Version.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/mercadopago/dx-php/tests/DummyEntity.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/mercadopago/dx-php/tests/EntityTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/mercadopago/dx-php/tests/FakeApiHub.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/mercadopago/dx-php/tests/MercadoPagoSdkTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/mercadopago/dx-php/tests/SDKTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/mercadopago/dx-php/tests/config_files/settings.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/mercadopago/dx-php/tests/config_files/settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/mercadopago/dx-php/tests/config_files/settings.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/mercadopago/dx-php/tests/config_files/settings_broken.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/mercadopago/dx-php/tests/config_files/settings_broken.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/mercadopago/dx-php/tests/json_files/authorization.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/mercadopago/dx-php/tests/json_files/customer_search.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/mercadopago/dx-php/tests/json_files/dummies.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/mercadopago/dx-php/tests/json_files/dummy.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/mercadopago/dx-php/tests/json_files/payment.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/mercadopago/dx-php/tests/resources/POSTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/mercadopago/dx-php/tests/resources/PaymentTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/mercadopago/dx-php/tests/resources/PreApprovalTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/mercadopago/dx-php/tests/resources/PreferenceTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/detail.php" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1637468727">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="gitignore" value="1" />
+          <entry key="json" value="1" />
+          <entry key="php" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JSON" value="1" />
+          <entry key="PHP" value="8" />
+          <entry key="PLAIN_TEXT" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="gitignore" value="1" />
+          <entry key="php" value="635" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PHP" value="635" />
+          <entry key="PLAIN_TEXT" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/detail.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" selection-start-line="4" selection-end-line="5" selection-end-column="73" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pending.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="28" column="119" selection-start-line="28" selection-start-column="119" selection-end-line="28" selection-end-column="119" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/success.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="680">
+              <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ipn.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="14" column="73" selection-start-line="14" selection-start-column="73" selection-end-line="14" selection-end-column="73" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="8" selection-start-column="8" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/failure.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/mercadopago/dx-php/src/MercadoPago/Entities/Preference.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="128">
+              <caret line="34" column="22" lean-forward="true" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/mercadopago/dx-php/src/MercadoPago/Entities/Shared/Payer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-34">
+              <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/composer.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>\&lt;\?php\n\n\/\/ SDK de Mercado Pago\nrequire __DIR__ \.  \'\/vendor\/autoload\.php\'\;\n\nMercadoPago\\SDK\:\:setAccessToken\(\'APP_USR\-6317427424180639\-042414\-47e969706991d3a442922b0702a0da44\-469485398\'\)\;\nMercadoPago\\SDK\:\:setIntegratorId\(\&quot;dev_24c65fb163bf11ea96500242ac130004\&quot;\)\;\n\n\$base_url \= \'https\:\/\/lgorriz\-mp\-ecommerce\-php\.herokuapp\.com\/\'\;\n\n\$collection_id \= \$_GET\[\'collection_id\'\]\;\n\$collection_status \= \$_GET\[\'collection_status\'\]\;\n\$external_reference \= \$_GET\[\'external_reference\'\]\;\n\$payment_type \= \$_GET\[\'payment_type\'\]\;\n\$preference_id \= \$_GET\[\'preference_id\'\]\;\n\$site_id \= \$_GET\[\'site_id\'\]\;\n\$processing_mode \= \$_GET\[\'processing_mode\'\]\;\n\$merchant_account_id \= \$_GET\[\'merchant_account_id\'\]\;\n\$data \= MercadoPago\\Payment\:\:find_by_id\(\$collection_id\)\;\nvar_dump\(\$data\)\;\n\?\&gt;\n\n\&lt;\!doctype html\&gt;\n\&lt;html lang\=\&quot;en\&quot;\&gt;\n\&lt;head\&gt;\n    \&lt;\!\-\- Required meta tags \-\-\&gt;\n    \&lt;meta charset\=\&quot;utf\-8\&quot;\&gt;\n    \&lt;meta name\=\&quot;viewport\&quot; content\=\&quot;width\=device\-width\, initial\-scale\=1\, shrink\-to\-fit\=no\&quot;\&gt;\n\n    \&lt;\!\-\- Bootstrap CSS \-\-\&gt;\n    \&lt;link rel\=\&quot;stylesheet\&quot; href\=\&quot;https\:\/\/stackpath\.bootstrapcdn\.com\/bootstrap\/4\.5\.0\/css\/bootstrap\.min\.css\&quot; integrity\=\&quot;sha384\-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc\+NcPb1dKGj7Sk\&quot; crossorigin\=\&quot;anonymous\&quot;\&gt;\n\n    \&lt;title\&gt;Pago exitoso\&lt;\/title\&gt;\n\&lt;\/head\&gt;\n\&lt;body\&gt;\n\&lt;h1\&gt;Felicitaciones\!\! El pago ha sido exitoso\&lt;\/h1\&gt;\n\n\&lt;div class\=\&quot;alert alert\-success\&quot; role\=\&quot;alert\&quot;\&gt;\n    \&lt;p\&gt;\n        \&lt;b\&gt;payment_method_id\:\&lt;\/b\&gt; \&lt;\?php echo \$data\-\&gt;payment_method_id \?\&gt;\n    \&lt;\/p\&gt;\n    \&lt;p\&gt;\n        \&lt;b\&gt;payment_type_id\:\&lt;\/b\&gt; \&lt;\?php echo \$data\-\&gt;payment_type_id \?\&gt;\n    \&lt;\/p\&gt;\n    \&lt;p\&gt;\n        \&lt;b\&gt;payment_method_reference_id\&lt;\/b\&gt; \&lt;\?php echo \$data\-\&gt;transaction_details\-\&gt;payment_method_reference_id \?\&gt;\n    \&lt;\/p\&gt;\n    \&lt;p\&gt;\n        \&lt;b\&gt;external_reference\&lt;\/b\&gt; \&lt;\?php echo \$external_reference \?\&gt;\n    \&lt;\/p\&gt;\n    \&lt;p\&gt;\n        \&lt;b\&gt;payment_id o collection_id\&lt;\/b\&gt; \&lt;\?php echo \$collection_id \?\&gt;\n    \&lt;\/p\&gt;\n\&lt;\/div\&gt;\n\n\&lt;\!\-\- Optional JavaScript \-\-\&gt;\n\&lt;\!\-\- jQuery first\, then Popper\.js\, then Bootstrap JS \-\-\&gt;\n\&lt;script src\=\&quot;https\:\/\/code\.jquery\.com\/jquery\-3\.5\.1\.slim\.min\.js\&quot; integrity\=\&quot;sha384\-DfXdz2htPH0lsSSs5nCTpuj\/zy4C\+OGpamoFVy38MVBnE\+IbbVYUew\+OrCXaRkfj\&quot; crossorigin\=\&quot;anonymous\&quot;\&gt;\&lt;\/script\&gt;\n\&lt;script src\=\&quot;https\:\/\/cdn\.jsdelivr\.net\/npm\/popper\.js\@1\.16\.0\/dist\/umd\/popper\.min\.js\&quot; integrity\=\&quot;sha384\-Q6E9RHvbIyZFJoft\+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo\&quot; crossorigin\=\&quot;anonymous\&quot;\&gt;\&lt;\/script\&gt;\n\&lt;script src\=\&quot;https\:\/\/stackpath\.bootstrapcdn\.com\/bootstrap\/4\.5\.0\/js\/bootstrap\.min\.js\&quot; integrity\=\&quot;sha384\-OgVRvuATP1z7JjHLkuOU7Xw704\+h835Lr\+6QL9UvYjZE3Ipu6Tp75j7Bh\/kR0JKI\&quot; crossorigin\=\&quot;anonymous\&quot;\&gt;\&lt;\/script\&gt;\n\&lt;\/body\&gt;\n\&lt;\/html\&gt;\n</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/detail.php" />
+        <option value="$PROJECT_DIR$/success.php" />
+        <option value="$PROJECT_DIR$/failure.php" />
+        <option value="$PROJECT_DIR$/pending.php" />
+        <option value="$PROJECT_DIR$/ipn.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/persistence" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/reflection" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/mercadopago/dx-php" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-12" />
+    <option name="y" value="-12" />
+    <option name="width" value="1944" />
+    <option name="height" value="1044" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="mp-ecommerce-php" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mp-ecommerce-php" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="38f65cef-3d2e-49cb-ba08-d3aef9ca3100" name="Default Changelist" comment="" />
+      <created>1591889026914</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591889026914</updated>
+      <workItem from="1591889028541" duration="6592000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="6592000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24939272" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/mercadopago/dx-php/src/MercadoPago/Entities/Shared/Payer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-34">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/mercadopago/dx-php/src/MercadoPago/Entities/Preference.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="34" column="22" lean-forward="true" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pending.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="28" column="119" selection-start-line="28" selection-start-column="119" selection-end-line="28" selection-end-column="119" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/success.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/detail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="5" selection-end-column="73" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/failure.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ipn.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="14" column="73" selection-start-line="14" selection-start-column="73" selection-end-line="14" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
