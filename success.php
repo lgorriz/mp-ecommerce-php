@@ -18,6 +18,7 @@ $processing_mode = $_GET['processing_mode'];
 $merchant_account_id = $_GET['merchant_account_id'];
 $data = MercadoPago\Payment::find_by_id($collection_id);
 //var_dump($data);
+echo json_encode($data);
 ?>
 
 <!doctype html>
