@@ -19,11 +19,11 @@ $merchant_account_id = $_GET['merchant_account_id'];
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
-    <title>Pago exitoso</title>
+    <title>Pago rechazado</title>
 </head>
 <body>
     <div class="alert alert-danger" role="alert">
-        <h4 class="alert-heading">Error. El pago haya sido rechazado</h4>
+        <h4 class="alert-heading">Error. El pago ha sido rechazado</h4>
     </div>
 
     <!-- Optional JavaScript -->

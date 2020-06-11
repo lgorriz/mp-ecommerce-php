@@ -7,6 +7,11 @@ if (!empty($post_data)) {
     fwrite($handle, $post_data);
     fclose($handle);
     echo $file;
+}else{
+    $filename = 'log_mp_ipn.json';
+    $handle = fopen($filename, "w");
+    fwrite($handle, $post_data);
+    fclose($handle);
 }
 
 require_once './vendor/autoload.php';
