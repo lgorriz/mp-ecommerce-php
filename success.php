@@ -8,6 +8,8 @@ MercadoPago\SDK::setIntegratorId("dev_24c65fb163bf11ea96500242ac130004");
 
 $base_url = 'https://lgorriz-mp-ecommerce-php.herokuapp.com/';
 
+echo json_encode($_GET);
+
 $collection_id = $_GET['collection_id'];
 $collection_status = $_GET['collection_status'];
 $external_reference = $_GET['external_reference'];
@@ -17,8 +19,7 @@ $site_id = $_GET['site_id'];
 $processing_mode = $_GET['processing_mode'];
 $merchant_account_id = $_GET['merchant_account_id'];
 $data = MercadoPago\Payment::find_by_id($collection_id);
-//var_dump($data);
-echo json_encode($data);
+
 ?>
 
 <!doctype html>
