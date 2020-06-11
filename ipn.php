@@ -1,18 +1,12 @@
 <?php
 $post_data = $_POST['data'];
 
-if (!empty($post_data)) {
-    $filename = 'log_mp.json';
-    $handle = fopen($filename, "w");
-    fwrite($handle, $post_data);
-    fclose($handle);
-    echo $file;
-}else{
-    $filename = 'log_mp_ipn.json';
-    $handle = fopen($filename, "w");
-    fwrite($handle, $post_data);
-    fclose($handle);
-}
+
+$filename = 'log_mp_ipn.json';
+$handle = fopen($filename, "w");
+fwrite($handle, $post_data);
+fclose($handle);
+
 
 require_once './vendor/autoload.php';
 
