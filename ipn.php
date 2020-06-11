@@ -1,5 +1,5 @@
 <?php
-$post_data = $_POST['data'];
+$post_data = file_get_contents('php://input');
 
 if (!empty($post_data)) {
     $filename = 'log_mp.txt';

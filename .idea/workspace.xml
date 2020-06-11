@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38f65cef-3d2e-49cb-ba08-d3aef9ca3100" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/detail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json_return.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/mp-ecommerce-php.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mp-ecommerce-php.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ipn.php" beforeDir="false" afterPath="$PROJECT_DIR$/ipn.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,27 +27,29 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignore" value="1" />
-          <entry key="json" value="1" />
-          <entry key="php" value="9" />
+          <entry key="json" value="2" />
+          <entry key="php" value="11" />
           <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JSON" value="1" />
-          <entry key="PHP" value="9" />
+          <entry key="JSON" value="2" />
+          <entry key="PHP" value="11" />
           <entry key="PLAIN_TEXT" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="1" />
-          <entry key="php" value="829" />
+          <entry key="json" value="7" />
+          <entry key="php" value="834" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PHP" value="829" />
+          <entry key="JSON" value="7" />
+          <entry key="PHP" value="834" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
@@ -52,14 +57,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/detail.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="161">
-              <caret line="187" column="102" selection-start-line="187" selection-start-column="102" selection-end-line="187" selection-end-column="102" />
+              <caret line="170" column="78" selection-start-line="170" selection-start-column="78" selection-end-line="170" selection-end-column="78" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/mercadopago/dx-php/src/MercadoPago/Entities/Preference.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="169">
+              <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="558">
+              <caret line="75" column="5" lean-forward="true" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/json_return.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -82,11 +114,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ipn.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+            <state relative-caret-position="17">
+              <caret line="1" column="46" selection-start-line="1" selection-start-column="46" selection-end-line="1" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -94,15 +126,6 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/log_mp.txt">
           <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="8" selection-start-column="8" selection-end-column="8" />
-            </state>
-          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -128,6 +151,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>\&lt;\?php\n\n\/\/ SDK de Mercado Pago\nrequire __DIR__ \.  \'\/vendor\/autoload\.php\'\;\n\nMercadoPago\\SDK\:\:setAccessToken\(\'APP_USR\-6317427424180639\-042414\-47e969706991d3a442922b0702a0da44\-469485398\'\)\;\nMercadoPago\\SDK\:\:setIntegratorId\(\&quot;dev_24c65fb163bf11ea96500242ac130004\&quot;\)\;\n\n\$base_url \= \'https\:\/\/lgorriz\-mp\-ecommerce\-php\.herokuapp\.com\/\'\;\n\n\$collection_id \= \$_GET\[\'collection_id\'\]\;\n\$collection_status \= \$_GET\[\'collection_status\'\]\;\n\$external_reference \= \$_GET\[\'external_reference\'\]\;\n\$payment_type \= \$_GET\[\'payment_type\'\]\;\n\$preference_id \= \$_GET\[\'preference_id\'\]\;\n\$site_id \= \$_GET\[\'site_id\'\]\;\n\$processing_mode \= \$_GET\[\'processing_mode\'\]\;\n\$merchant_account_id \= \$_GET\[\'merchant_account_id\'\]\;\n\$data \= MercadoPago\\Payment\:\:find_by_id\(\$collection_id\)\;\nvar_dump\(\$data\)\;\n\?\&gt;\n\n\&lt;\!doctype html\&gt;\n\&lt;html lang\=\&quot;en\&quot;\&gt;\n\&lt;head\&gt;\n    \&lt;\!\-\- Required meta tags \-\-\&gt;\n    \&lt;meta charset\=\&quot;utf\-8\&quot;\&gt;\n    \&lt;meta name\=\&quot;viewport\&quot; content\=\&quot;width\=device\-width\, initial\-scale\=1\, shrink\-to\-fit\=no\&quot;\&gt;\n\n    \&lt;\!\-\- Bootstrap CSS \-\-\&gt;\n    \&lt;link rel\=\&quot;stylesheet\&quot; href\=\&quot;https\:\/\/stackpath\.bootstrapcdn\.com\/bootstrap\/4\.5\.0\/css\/bootstrap\.min\.css\&quot; integrity\=\&quot;sha384\-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc\+NcPb1dKGj7Sk\&quot; crossorigin\=\&quot;anonymous\&quot;\&gt;\n\n    \&lt;title\&gt;Pago exitoso\&lt;\/title\&gt;\n\&lt;\/head\&gt;\n\&lt;body\&gt;\n\&lt;h1\&gt;Felicitaciones\!\! El pago ha sido exitoso\&lt;\/h1\&gt;\n\n\&lt;div class\=\&quot;alert alert\-success\&quot; role\=\&quot;alert\&quot;\&gt;\n    \&lt;p\&gt;\n        \&lt;b\&gt;payment_method_id\:\&lt;\/b\&gt; \&lt;\?php echo \$data\-\&gt;payment_method_id \?\&gt;\n    \&lt;\/p\&gt;\n    \&lt;p\&gt;\n        \&lt;b\&gt;payment_type_id\:\&lt;\/b\&gt; \&lt;\?php echo \$data\-\&gt;payment_type_id \?\&gt;\n    \&lt;\/p\&gt;\n    \&lt;p\&gt;\n        \&lt;b\&gt;payment_method_reference_id\&lt;\/b\&gt; \&lt;\?php echo \$data\-\&gt;transaction_details\-\&gt;payment_method_reference_id \?\&gt;\n    \&lt;\/p\&gt;\n    \&lt;p\&gt;\n        \&lt;b\&gt;external_reference\&lt;\/b\&gt; \&lt;\?php echo \$external_reference \?\&gt;\n    \&lt;\/p\&gt;\n    \&lt;p\&gt;\n        \&lt;b\&gt;payment_id o collection_id\&lt;\/b\&gt; \&lt;\?php echo \$collection_id \?\&gt;\n    \&lt;\/p\&gt;\n\&lt;\/div\&gt;\n\n\&lt;\!\-\- Optional JavaScript \-\-\&gt;\n\&lt;\!\-\- jQuery first\, then Popper\.js\, then Bootstrap JS \-\-\&gt;\n\&lt;script src\=\&quot;https\:\/\/code\.jquery\.com\/jquery\-3\.5\.1\.slim\.min\.js\&quot; integrity\=\&quot;sha384\-DfXdz2htPH0lsSSs5nCTpuj\/zy4C\+OGpamoFVy38MVBnE\+IbbVYUew\+OrCXaRkfj\&quot; crossorigin\=\&quot;anonymous\&quot;\&gt;\&lt;\/script\&gt;\n\&lt;script src\=\&quot;https\:\/\/cdn\.jsdelivr\.net\/npm\/popper\.js\@1\.16\.0\/dist\/umd\/popper\.min\.js\&quot; integrity\=\&quot;sha384\-Q6E9RHvbIyZFJoft\+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo\&quot; crossorigin\=\&quot;anonymous\&quot;\&gt;\&lt;\/script\&gt;\n\&lt;script src\=\&quot;https\:\/\/stackpath\.bootstrapcdn\.com\/bootstrap\/4\.5\.0\/js\/bootstrap\.min\.js\&quot; integrity\=\&quot;sha384\-OgVRvuATP1z7JjHLkuOU7Xw704\+h835Lr\+6QL9UvYjZE3Ipu6Tp75j7Bh\/kR0JKI\&quot; crossorigin\=\&quot;anonymous\&quot;\&gt;\&lt;\/script\&gt;\n\&lt;\/body\&gt;\n\&lt;\/html\&gt;\n</find>
+      <find>exter</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -140,10 +164,11 @@
         <option value="$PROJECT_DIR$/failure.php" />
         <option value="$PROJECT_DIR$/pending.php" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/ipn.php" />
         <option value="$PROJECT_DIR$/log_mp.txt" />
         <option value="$PROJECT_DIR$/success.php" />
+        <option value="$PROJECT_DIR$/json_return.json" />
         <option value="$PROJECT_DIR$/detail.php" />
+        <option value="$PROJECT_DIR$/ipn.php" />
       </list>
     </option>
   </component>
@@ -152,6 +177,21 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/mercadopago/dx-php" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/persistence" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/reflection" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/collections" />
+    </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-12" />
@@ -206,12 +246,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1591889026914</updated>
-      <workItem from="1591889028541" duration="13423000" />
+      <workItem from="1591889028541" duration="14577000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13423000" />
+    <option name="totallyTimeSpent" value="14577000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -255,13 +295,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/mercadopago/dx-php/src/MercadoPago/Entities/Preference.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="34" column="22" lean-forward="true" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -273,13 +306,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="72" column="27" selection-start-line="72" selection-start-column="27" selection-end-line="72" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -307,20 +333,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ipn.php">
+    <entry file="file://$PROJECT_DIR$/json_return.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/mercadopago/dx-php/src/MercadoPago/Entities/Preference.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="75" column="5" lean-forward="true" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/detail.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
-          <caret line="187" column="102" selection-start-line="187" selection-start-column="102" selection-end-line="187" selection-end-column="102" />
+          <caret line="170" column="78" selection-start-line="170" selection-start-column="78" selection-end-line="170" selection-end-column="78" />
           <folding>
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ipn.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="46" selection-start-line="1" selection-start-column="46" selection-end-line="1" selection-end-column="46" />
         </state>
       </provider>
     </entry>
