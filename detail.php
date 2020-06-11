@@ -166,7 +166,7 @@ $base_url = 'https://lgorriz-mp-ecommerce-php.herokuapp.com/';
                                             $item->currency_id = "ARS";
                                             $item->unit_price = $_POST['price'];
                                             $item->picture_url = $base_url.$_POST['img'];
-                                            $item->description = $_POST['title'];
+                                            $item->description = 'Dispositivo móvil de Tienda e-commerce';
 
                                             $preference = new MercadoPago\Preference();
                                             $preference->payment_methods = array(
@@ -185,7 +185,7 @@ $base_url = 'https://lgorriz-mp-ecommerce-php.herokuapp.com/';
                                             );
                                             $preference->notification_url = $base_url.'ipn.php';
                                             $preference->auto_return = "approved";
-                                            $preference->external_reference = 'lealp88@gmail.com';
+                                            $preference->external_reference = 'gorrizleandro@gmail.com';
                                             $preference->save();
 
                                         ?>
@@ -193,7 +193,7 @@ $base_url = 'https://lgorriz-mp-ecommerce-php.herokuapp.com/';
                                             src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
                                                     data-preference-id="<?php //echo $preference->id; ?>">
                                         </script> -->
-                                        <a href="<?php echo $preference->init_point?>">Pagá con Mercado Pago</a>
+                                        <a href="<?php echo $preference->init_point?>">Pagar la compra</a>
                                     </form>
                                 </div>
                             </div>
