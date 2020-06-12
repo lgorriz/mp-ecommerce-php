@@ -55,7 +55,21 @@ var_dump($data);
         <b>payment_id o collection_id</b> <?php echo $collection_id ?>
     </p>
 </div>
+<pre>
+    {
+	"action":"payment.created",
+	"api_version":"v1",
+	"data":{
+		"id":"<?php echo $collection_id ?>"
+	},
+	"date_created":"<?php echo explode('.',$data->date_created)[0] ?>Z",
+	"id":<?php echo $data->order->id ?>,
+	"live_mode":true,
+	"type":"payment",
+	"user_id":"<?php echo explode('-',$preference_id)[0] ?>"
+    }
 
+</pre>
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
